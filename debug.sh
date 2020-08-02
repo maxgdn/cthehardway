@@ -1,3 +1,3 @@
 #!/bin/bash
-TARGET=$1
+TARGET=$@
 gdb --batch --ex r --ex bt --ex q --args $TARGET 
