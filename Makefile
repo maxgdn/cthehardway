@@ -19,5 +19,8 @@ ex8:
 ex9: 
 	cc ${CFLAGS} ex9.c -o ex9.o
 
+ex10:
+	cc ${CFLAGS} ex10.c -o ex10.o
+
 clean:
 	rm -f *.o
