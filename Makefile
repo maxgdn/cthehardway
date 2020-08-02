@@ -1,6 +1,6 @@
 CFLAGS=-Wall -g
 
-all: ex1 ex3 ex7 ex8 ex9
+all: ex1 ex3 ex7 ex8 ex9 ex10 ex11 ex12
 
 .PHONY: all
 
@@ -21,6 +21,12 @@ ex9:
 
 ex10:
 	cc ${CFLAGS} ex10.c -o ex10.o
+
+ex11:
+	cc ${CFLAGS} ex11.c -o ex11.o
+
+ex12: 
+	cc ${CFLAGS} ex12.c -o ex12.o
 
 clean:
 	rm -f *.o
